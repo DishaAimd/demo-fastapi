@@ -61,6 +61,7 @@ def read_root(
 
             json_body = {
                 "vitals": field_mapping,
+                "session_id": session_id,
             }
             return json_body
         except Exception as e:
